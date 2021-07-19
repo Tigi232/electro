@@ -96,7 +96,7 @@
 }
     .column-3 > div,
     .column-4 > div {
-        width: calc(33.33333333% - 2rem)
+        width: calc(33.33333333% - 5rem)
 }
     .column-5 > div,
     .column-6 > div {
@@ -119,7 +119,7 @@
 }
     .column-3 > div,
     .column-4 > div {
-        width: calc(50% - 2rem)
+        width: calc(50% - 5rem)
 }
     .column-5 > div,
     .column-6 > div {
