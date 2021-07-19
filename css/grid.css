@@ -66,71 +66,71 @@
 
 
 .column-2 > div {
-    width:  calc(50% - 5rem)
+    width:  calc(50% - 2rem)
 }
 .column-3 > div {
-    width:  calc(33.33333333% - 5rem)
+    width:  calc(33.33333333% - 2rem)
 }
 .column-4 > div {
     width:  calc(25% - 5rem)
 }
 .column-5 > div {
-    width:  calc(20% - 5rem)
+    width:  calc(20% - 2rem)
 }
 .column-6 > div {
-    width:  calc(16.66666667% - 5rem)
+    width:  calc(16.66666667% - 2rem)
 }
 .column-7 > div {
-    width:  calc(14.28571429% - 5rem)
+    width:  calc(14.28571429% - 2rem)
 }
 .column-8 > div {
-    width:  calc(12.5% - 5rem)
+    width:  calc(12.5% - 2rem)
 }
 .column-9 > div {
-    width:  calc(11.11111111% - 5rem)
+    width:  calc(11.11111111% - 2rem)
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .column-2 > div {
-        width: calc(50% - 5rem)
+        width: calc(50% - 2rem)
 }
     .column-3 > div,
     .column-4 > div {
-        width: calc(33.33333333% - 5rem)
+        width: calc(33.33333333% - 2rem)
 }
     .column-5 > div,
     .column-6 > div {
-        width: calc(25% - 5rem)
+        width: calc(25% - 2rem)
 }
     .column-7 > div {
-        width: calc(20% - 5rem)
+        width: calc(20% - 2rem)
         
 }
     .column-8 > div {
-        width: calc(16.66666667% - 5rem)
+        width: calc(16.66666667% - 2rem)
 }
     .column-9 > div {
-        width: calc(14.28571429% - 5rem)
+        width: calc(14.28571429% - 2rem)
 }
 }
 @media (min-width: 480px) and (max-width: 767px) {
     .column-2 > div {
-        width: calc(100% - 5rem)
+        width: calc(100% - 2rem)
 }
     .column-3 > div,
     .column-4 > div {
-        width: calc(50% - 5rem)
+        width: calc(50% - 2rem)
 }
     .column-5 > div,
     .column-6 > div {
-        width: calc(33.33333333% - 5rem)
+        width: calc(33.33333333% - 2rem)
 }
     .column-7 > div,
     .column-8 > div {
-        width: calc(25% - 5rem)
+        width: calc(25% - 2rem)
 }
     .column-9 > div {
-        width: calc(20% - 5rem)
+        width: calc(20% - 2rem)
 }
 }
 @media (max-width: 479px) 
@@ -138,16 +138,16 @@
     .column-2 > div,
     .column-3 > div,
     .column-4 > div {
-        width: calc(100% - 5rem)
+        width: calc(100% - 2rem)
 }
     .column-5 > div,
     .column-6 > div,
     .column-7 > div,
     .column-8 > div {
-        width: calc(50% - 5rem)
+        width: calc(50% - 2rem)
 }
     .column-9 > div {
-        width: calc(33.33333333% - 5rem)
+        width: calc(33.33333333% - 2rem)
 }
 }
 
@@ -264,7 +264,7 @@
     .no-margin .column-8 > div {
         width: 50%
 }
-    .no-margin.column-9 > div {
+    .no-margin .column-9 > div {
         width: 33.33333333%
 }
 }
