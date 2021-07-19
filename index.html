@@ -7,9 +7,12 @@
 		<meta name="desription" content="Example Description">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="icon" type="image/x-icon" href="img/favicon.png"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -53,35 +56,35 @@
 				<div class="content-box">
 					<h2>Mivel foglalkozunk?</h2>
 					<div class="column-4">
-						<div>
+						<div class="grey">
 							<img src="img/villanyszereles.svg" alt="Teljeskörű villanyszerelés">
 							<h3>Teljeskörű villanyszerelés</h3>
 						</div>
-						<div>
+						<div class="grey">
 							<img src="img/villamos-halozatok.svg" alt="illamos hálózatok tervezése">
 							<h3>Villamos hálózatok tervezése</h3>
 						</div>
-						<div>
+						<div class="grey">
 							<img src="img/kozvilagitas.svg" alt="Közvilágítás, díszvilágítás">
-							<h3>Közvilágítás, díszvilágítás</h3>
+							<h3 class="text">Közvilágítás, díszvilágítás</h3>
 						</div>
-						<div>
+						<div class="grey">
 							<img src="img/kozmu.svg" alt="Közműépítés, mélyépítés">
 							<h3>Közműépítés, mélyépítés</h3>
 						</div>
-						<div>
+						<div class="grey">
 							<img src="img/villamvedelem.svg" alt="Villámvédelmi felülvizsgálat">
 							<h3>Villámvédelmi felülvizsgálat</h3>
 						</div>
-						<div>
+						<div class="grey">
 							<img src="img/transformator.svg" alt="Transzformátor állomások építése">
 							<h3>Transzformátor állomások építése</h3>
 						</div>
-						<div>
+						<div class="grey">
 							<img src="img/napelem.svg" alt="Napelemes rendszerek">
 							<h3>Napelemes rendszerek</h3>
 						</div>
-						<div>
+						<div class="grey">
 							<img src="img/erintesvedelem.svg" alt="Érintésvédelmi felülvizsgálat">
 							<h3>Érintésvédelmi felülvizsgálat</h3>
 						</div>
@@ -94,7 +97,8 @@
 			<section id="portfolio">
 				<div class="content-box">
 					<h2>Legfrissebb munkáink</h2>
-					<div class="column-5">
+				</div>
+					<div class="column-5 no-margin">
 						
 						<div><img src="img/portfolio-1.jpg" alt="Portfolio"></div>
 						<div><img src="img/portfolio-2.jpg" alt="Portfolio"></div>
@@ -107,6 +111,7 @@
 						<div><img src="img/portfolio-9.jpg" alt="Portfolio"></div>
 						<div><img src="img/portfolio-10.jpg" alt="Portfolio"></div>
 					</div>
+					<div class="content-box">
 					<p>
 						<a href="" class="button">Még több projekt</a>
 					</p>
@@ -116,35 +121,59 @@
 				<div class="content-box">
 					<h2>Hogyan dolgozunk?</h2>
 					<div class="column-2">
-						<div>
-							<img src="img/01.jpg" alt="Elemzés">
-							<h3>01/ Elemzés</h3>
-							<p>A feladatelemzés során felderítjük, hogy a konkrét  művelet, illetve munkafolyamat során  milyen megoldásokat tudunk alkalmazni a hatékony munkavégzés érdekben.</p>
+						<div class="work-item">
+							<div>
+								<img src="img/01.jpg" alt="Elemzés">
+							</div>
+							<div>
+								<h3><span>01/</span> Elemzés</h3>
+								<p>A feladatelemzés során felderítjük, hogy a konkrét  művelet, illetve munkafolyamat során  milyen megoldásokat tudunk alkalmazni a hatékony munkavégzés érdekben.</p>
+							</div>
 						</div>
-						<div>
-							<img src="img/02.jpg" alt="Előkészítés">
-							<h3>02/ Előkészítés</h3>
-							<p>Kivitelezési tervdokumentációk felülvizsgálata, tervek átszámolása, véleményezése és a kivitelezési tevékenység teljes folyamatának figyelemmel kísérése.</p>
+						<div class="work-item">
+							<div>
+								<img src="img/02.jpg" alt="Előkészítés">
+							</div>
+							<div>
+								<h3><span>02/</span> Előkészítés</h3>
+								<p>Kivitelezési tervdokumentációk felülvizsgálata, tervek átszámolása, véleményezése és a kivitelezési tevékenység teljes folyamatának figyelemmel kísérése.</p>
+							</div>
 						</div>
-						<div>
-							<img src="img/03.jpg" alt="Fejlesztés">
-							<h3>03/ Fejlesztés</h3>
-							<p>Magasan képzett mérnökeink és technikusaink kutatják és fejlesztik a bonyolult alkatrészek technológiáit, amelyekkel megrendelőink rendszerei készülnek. </p>
+						<div class="work-item">
+							<div>
+								<img src="img/03.jpg" alt="Fejlesztés">
+							</div>
+							<div>
+								<h3><span>03/</span> Fejlesztés</h3>
+								<p>Magasan képzett mérnökeink és technikusaink kutatják és fejlesztik a bonyolult alkatrészek technológiáit, amelyekkel megrendelőink rendszerei készülnek. </p>
+							</div>
 						</div>
-						<div>
-							<img src="img/04.jpg" alt="Telepítés">
-							<h3>04/ Telepítés</h3>
-							<p>Időpontegyeztetés, műszaki felmérés után kivitelező partnerünk egyezteti Önnel a telepítés időpontját, amely során a telepített rendszer csatlakozik a  hálózathozathoz.</p>
+						<div class="work-item">
+							<div>
+								<img src="img/04.jpg" alt="Telepítés">
+							</div>
+							<div>
+								<h3><span>04/</span> Telepítés</h3>
+								<p>Időpontegyeztetés, műszaki felmérés után kivitelező partnerünk egyezteti Önnel a telepítés időpontját, amely során a telepített rendszer csatlakozik a  hálózathozathoz.</p>
+							</div>
 						</div>
-						<div>
-							<img src="img/05.jpg" alt="Tesztelés">
-							<h3>05/ Tesztelés</h3>
-							<p>Vizsgálatokat végzünk, hogy mérjük a rendszer, vagy annak mechanikai és technológiai részének tulajdonságait destruktív, vagy nem destruktív körülmények között.</p>
+						<div class="work-item">
+							<div>
+								<img src="img/05.jpg" alt="Tesztelés">
+							</div>
+							<div>
+								<h3><span>05/</span> Tesztelés</h3>
+								<p>Vizsgálatokat végzünk, hogy mérjük a rendszer, vagy annak mechanikai és technológiai részének tulajdonságait destruktív, vagy nem destruktív körülmények között.</p>
+							</div>
 						</div>
-						<div>
-							<img src="img/06.jpg" alt="Utánkövetés">
-							<h3>06/ Utánkövetés</h3>
-							<p>Nagy hangsúlyt fektetünk a tanácsadással kiegészített értékesítésre, valamint a partnereink és a náluk telepített rendszerek utánkövetésére, esetleges bővítésére. </p>
+						<div class="work-item">
+							<div>
+								<img src="img/06.jpg" alt="Utánkövetés">
+							</div>
+							<div>
+								<h3><span>06/</span> Utánkövetés</h3>
+								<p>Nagy hangsúlyt fektetünk a tanácsadással kiegészített értékesítésre, valamint a partnereink és a náluk telepített rendszerek utánkövetésére, esetleges bővítésére. </p>
+							</div>
 						</div>
 					</div>
 					<div class="notice">
@@ -154,8 +183,8 @@
 				</div>
 			</section>
 			<section id="about">
-				<div class="content-box">
-					<div class="row">
+					<div class="row no-margin offset-left ">
+						
 						<div class="col-1-2">
 							<h2>Kik vagyunk?</h2>
 							<p>
@@ -174,7 +203,6 @@
 							<img src="img/kik-vagyunk.jpg" alt="Kik vagyunk?">
 						</div>
 					</div>
-				</div>
 			</section>
 			<section id="offer">
 				<div class="content-box">
@@ -195,15 +223,15 @@
 			<div class="content-box">
 				<div id="foot-info">
 					<ul>
-						<li>Címünk: 2800 Tatabánya, Dózsa György utca 7.</li>
-						<li>Telefon: +36 20 222 5555</li>
-						<li>Email: info@electric.hu</li>
+						<li><b>Címünk:</b> 2800 Tatabánya, Dózsa György utca 7.</li>
+						<li><b>Telefon:</b> +36 20 222 5555</li>
+						<li><b>Email:</b> info@electric.hu</li>
 					</ul>
 				</div>
 				<div id="foot-menu">
 					<ul>
-						<li>Adatvédelimi nyilatkozat</li>
-						<li>Cookie információk</li>
+						<li><a href="#">Adatvédelimi nyilatkozat</a></li>
+						<li><a href="#">Cookie információk</a></li>
 					</ul>
 				</div>
 			</div>
