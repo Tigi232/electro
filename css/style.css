@@ -312,6 +312,10 @@ footer .content-box {
         z-index: 0;
         text-align: center;
     }
+    #about p, #about li {
+        text-align: justify!important;
+        padding-right: 5%;
+    }
 }
 @media (max-width:479px) {
     #logo {
