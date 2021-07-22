@@ -83,6 +83,10 @@ a {
     padding: 0.5rem 0.7rem;
     margin: 1.5rem 0 4vw 0;
 }
+.button:hover {
+    background: #F5F5F5;
+    color: #FFDB31;
+}
 main ul {
     margin-bottom: 0.7rem;
 }
@@ -104,6 +108,9 @@ main ul li:before {
 }
 .grey {
     background: #F5F5F5;
+}
+.grey:hover {
+    background: #fff;
 }
 
 /* LAYOUT*/
@@ -186,6 +193,9 @@ section {
     background: #F5F5F5;
     text-align: left;
     margin-bottom: 2rem;
+}
+#how-we-work .work-item:hover {
+    background: #fff;
 }
 #how-we-work .work-item > div:first-of-type{
     width: 30%;
