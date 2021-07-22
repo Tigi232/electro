@@ -31,11 +31,6 @@ img {
     width: 100%;
     height: auto;
 }
-@media (max-width: 1280px) {
-    .content-box {
-    width: 90%;
-}
-}
 .content-box {
     width: 80%;
     margin: auto;
@@ -136,7 +131,7 @@ header .content-box {
 }
 #tel a {
     display: inline-block;
-    background: url(../img/tel.svg) left ceter no-repeat;
+    background: url('../img/tel.svg') left center no-repeat;
     background-size: auto 100%;
     padding-left: 1.5rem;
     font-weight: 600;
@@ -151,9 +146,9 @@ section {
 }
 
 #hero {
-    background: url(../img/hero-bg.jpg) center no-repeat;
+    background: url('../img/hero-bg.jpg') center no-repeat;
     background-size: cover;
-    padding: 10vw;
+    padding: 10vw 0 10vw 0;
     position: relative;
 }
 #hero img {
@@ -182,7 +177,7 @@ section {
 .notice {
     background: #F5F5F5;
     padding: 0.5rem;
-    width: 50%;
+    max-width: 30rem;
     margin: 0 auto;
 }
 #how-we-work .work-item {
@@ -208,12 +203,16 @@ section {
     z-index: 0;
     text-align: left;
 }
+#about p, #about li {
+    text-align: justify!important;
+    padding-right: 3rem;
+}
 .offset-left {
     padding-left: 10%;
     padding-top: 1rem;
     padding-bottom: 1rem; 
 }
-#offer p {
+#offer div p {
     max-width: 45rem;
     margin: 0 auto 1rem auto;
 }
@@ -241,9 +240,92 @@ footer .content-box {
     font-size: smaller;
 }
 
+/*MEDIA QUERIES*/
 
-
-
+@media (max-width:1280px) {
+    .content-box {
+        width: 90%;
+    }
+    .offset-left {
+        padding-left: 5%;
+    }
+}
+@media (max-width:1199px) {
+    header .content-box {
+        flex-wrap: wrap;
+    }
+    #main-menu {
+        order: 3;
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        padding-top: 1rem ;
+        border-top: solid 1px #ccc;
+    }
+    #hero img {
+        right: 5%;
+    }
+    footer .content-box {
+        display: block;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    #foot-info {
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width:875px) {
+    #hero-text {
+        text-align: center;
+        max-width: 20rem;
+    }
+    #foot-info li, #foot-menu {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
+@media (max-width:767px) {
+    #main-menu li {
+        font-size: x-large;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    #main-menu li:last-of-type {
+        margin-bottom: 0;
+    }
+    #hero {
+        padding: 2rem 0 26rem 0;
+    }
+    #hero img {
+        right: 50%;
+        margin-right: -8rem;
+        height: auto;
+        width: 16rem;
+    }
+    #hero-text {
+        max-width: initial!important;
+        text-align: center;
+    }
+    #about {
+        background: #F5F5F5;
+        position: relative;
+        z-index: 0;
+        text-align: center;
+    }
+}
+@media (max-width:479px) {
+    #logo {
+        max-width: initial;
+        width: 70%;
+        margin: 0 auto 1rem auto;
+    }
+    #tel {
+        margin: 0 auto;
+    }
+    h2, h1 {
+        font-size: 2.5rem;
+    }
+}
 
 
 
