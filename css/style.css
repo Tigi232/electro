@@ -176,7 +176,7 @@ footer .content-box {
 /*MEDIA QUERIES*/
 
 @media (max-width:1280px) {
-    .content-box {
+    .home .content-box {
         width: 90%;
     }
     .offset-left {
@@ -216,6 +216,11 @@ footer .content-box {
         display: block;
         margin-bottom: 0.5rem;
     }
+    .inner h3 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
 }
 @media (max-width:767px) {
     #main-menu li {
@@ -250,8 +255,13 @@ footer .content-box {
         padding-right: 5%;
     }
     .inner .services .grey {
-    margin-left: 0;
-}
+        margin-left: 0;
+    }
+    .inner h3 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
 }
 @media (max-width:479px) {
     #logo {
