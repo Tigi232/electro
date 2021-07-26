@@ -1,0 +1,168 @@
+
+@media (min-width: 1280px) {
+    html {
+    font-size: 1.15vw;
+}
+}
+@media (max-width: 1279px) {
+    html {
+    font-size: 18px;
+}
+}
+@media (max-width: 480px) {
+    html {
+    font-size: 16px;
+}
+}
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #333;
+    background: #fff;
+}
+p {
+    margin-bottom: 0.7rem;
+    line-height: 1.5;
+}
+p:last-of-type {
+    margin-bottom: 0;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.2;
+    position: relative;
+}
+h1 {
+    font-weight: bold;
+    font-size: 2.75rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: bold;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+h2:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1rem;
+    background: #FFDB31;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+.home h1 {
+    font-size: 2.75rem;
+    margin-bottom: 0.5rem;
+}
+.home h2 {
+    font-size: 2.75rem;
+    margin-bottom: 2rem;
+}
+p + h2, ul + h2, ol + h2, p + ol {
+    margin-top: 2rem;
+}
+#main-content-top h1:before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 100%;
+    background: #FFDB31;
+    position: absolute;
+    bottom: 0;
+    left: calc(-50% - 1.5rem);
+    margin-bottom: 0;
+}
+b {
+    font-weight: bold;
+}
+a {
+    color: #FFDB31;
+    text-decoration: none;
+}
+.button {
+    display: inline-block;
+    background:#FFDB31;
+    color: inherit;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.5rem 0.7rem;
+    margin: 1.5rem 0 4vw 0;
+}
+.button:hover {
+    background: #F5F5F5;
+    color: #FFDB31;
+}
+main ul {
+    margin-bottom: 0.7rem;
+}
+main ul li {
+    padding-left: 1.5rem;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+main ul li:before {
+    content: "";
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #FFDB31;
+    position: absolute;
+    top: 0.5rem; 
+    left: 0;
+}
+main ol {
+    margin-bottom: 0.7rem;
+    counter-reset: li-counter;
+}
+main ol li {
+    padding-left: 2.5rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    position: relative;
+}
+main ol li:before {
+    content: counter(li-counter);
+    counter-increment: li-counter;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background: #FFDB31;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    text-align: center;
+    font-weight: bold;
+}
+blockquote {
+    background: #f5f5f5;
+    padding: 1rem 1rem 1rem 1.5rem;
+    border-left: solid 0.5rem #FFDB31;
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.grey {
+    background: #F5F5F5;
+}
+.grey:hover {
+    background: #fff;
+}
+

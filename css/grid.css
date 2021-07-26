@@ -5,7 +5,6 @@
     margin-left: -1rem;
     margin-right: -1rem;
 }
-
 .row div[class*=col]{ 
     /* osztály tartalmazza a következőt: "col" */
     margin-left: 1rem;
