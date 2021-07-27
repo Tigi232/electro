@@ -188,6 +188,7 @@ footer .content-box {
     text-decoration: underline;
 }
 #newsletter input[type=text], #newsletter input[type=email]{
+    display: block;
     font-family: inherit;
     border: solid 2px #000;
     border-radius: 0px;
@@ -205,6 +206,7 @@ footer .content-box {
     padding: 0.5rem 0.7rem;
     margin: 0 0.25rem;
     height: 2rem;
+}
     
 /*MEDIA QUERIES*/
 
